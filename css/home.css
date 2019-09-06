@@ -1,0 +1,42 @@
+ 
+body 
+{
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+}
+navbar
+{
+    background-color: blue;
+}
+
+h2
+{
+    font-size : 35px
+}
+
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: white;
+      font-weight: 400;
+      margin-bottom: 40px;
+  }
+
+  .jumbotron {
+      background-color: lightblue;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+
+  .container-fluid {
+      padding: 80px 50px;
+  }
+
+
+.item span {
+      font-style: normal;
+  }
+
+  

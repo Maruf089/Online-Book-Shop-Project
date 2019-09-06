@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Create Payment Page Design</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="top-box">
+            <p>Payment System</p>
+             </div>
+
+        <div class="middle-box">
+           <h1>Pay to the Company</h1> 
+           <h1>100$</h1>
+        </div>
+
+        <div class="bottom-box">
+            <button type="button" class="payment-option-btn">Pay with Paypal</button>
+        <button type="button" class="payment-option-btn">Pay using Netbanking</button>
+
+        <div class="card-details">
+            <p>Pay using cardit or debit card</p>
+            <div class="card-num-field-group">
+                <label>Card Number</label>
+                <input type="text" class="card-num-field" placeholder="xxxx-xxxx-xxxx-xxxx">
+            </div>
+
+            <div class="date-field-group">
+                    <label>Expiry Date</label><br>
+                    <input type="text" class="date-field" placeholder="mm">
+                    <input type="text" class="date-field" placeholder="yyyy">
+                </div>
+                
+                <div class="CVC-field-group">
+                        <label>Password</label><br>
+                        <input type="password" class="cvc-field" placeholder="xxx">
+                   
+                    </div>
+
+                    <div class="name-field-group">
+                            <label>Card Holder Name</label><br>
+                            <input type="password" class="name-field" placeholder="Full Name">
+                       
+                        </div>
+                        <form>
+                                <input type="button" class ="pay-btn" value="PAY NOW" onclick="window.location.href='paymentsuccess.html'" />
+                                </form>
+
+
+
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
